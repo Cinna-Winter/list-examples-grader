@@ -20,7 +20,7 @@ then
   echo "ListExamples.java file found."
 else 
   echo "ListExamples.java file not found."
-  echo "Grade: 0"
+  echo "Grade: 0 :( "
   exit 
 fi
 
@@ -35,7 +35,7 @@ javac -cp $CPATH *.java
 echo "The exit code for the compilation is $?"
 if [[ $? -ne 0 ]]
 then
-  echo "Grade: 0"
+  echo "Grade: 0 :( "
   exit
 fi
 
